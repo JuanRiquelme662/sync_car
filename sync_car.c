@@ -1,5 +1,6 @@
 #include <pthread.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 //strutct que representa a stacao
 struct station {
@@ -17,22 +18,24 @@ struct station {
     //se ainda houver assentos livres mas nao tiver mais passageiros, libera o carro
 };
 
-//responsavel por iniciar o objeto station
-station_init(struct station *station){
-
+//responsavel por iniciar os campos de station
+void station_init(struct station *station){
+    //inicializacao do mutex
+    pthread_mutex_init(&station->lock, NULL);
+    //inicializacao das variaves de condicao
+    pthread_cond_init(&station->carro_chegou, NULL);
+    pthread_cond_init(&station->espera_embarque, NULL);
+    //inicializacao dos contadores
+    station->passageiros_esperando = 0;
+    station->quantidade_assentos_livres = 0;
+    station->passageiros_embarcando = 0;
 }
 
 //quando um carro chega a estacao essa funcao e chamada
-station_load_car(struct station *station, int count){
-
-}
+//void station_load_car(struct station *station, int count){}
 
 //funcao chamada quando um passageiro chega a estacao e quer entrar no carro
-station_wait_for_car(struct station *station){
-
-}
+//void station_wait_for_car(struct station *station){}
 
 //funcao chamada quando um passageiro entra no carro
-station_on_board(struct station *station){
-
-}
+//void station_on_board(struct station *station){}
