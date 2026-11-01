@@ -44,8 +44,23 @@ void station_on_board(struct station *station){
     pthread_mutex_unlock(&station->lock);
 }
 
+//funcao chamada quando um passageiro chega a estacao e quer entrar no carro
+void station_wait_for_car(struct station *station){
+    pthread_mutex_lock(&station->lock);
+    station->passageiros_esperando++;
+    //espera existir um assento livre para reservar
+    while(station->quantidade_assentos_livres == 0){
+        //a thread vai ser acordada em station_load_car
+        pthread_cond_wait(&station->carro_chegou, &station->lock);
+    }
+    //reserva o assento
+    station->quantidade_assentos_livres--;
+    station->passageiros_embarcando++;
+    station->passageiros_esperando--;
+    pthread_mutex_unlock(&station->lock);
+}
+
 //quando um carro chega a estacao essa funcao e chamada
 //void station_load_car(struct station *station, int count){}
 
-//funcao chamada quando um passageiro chega a estacao e quer entrar no carro
-//void station_wait_for_car(struct station *station){}
+
