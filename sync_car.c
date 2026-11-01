@@ -31,11 +31,21 @@ void station_init(struct station *station){
     station->passageiros_embarcando = 0;
 }
 
+//funcao chamada quando um passageiro entra no carro
+void station_on_board(struct station *station){
+    //pega a "chave" do mutex, bloquadno a entreada de outras threads
+    pthread_mutex_lock(&station->lock);
+    station->passageiros_embarcando--;
+    if(station->passageiros_embarcando == 0){
+        //se nao houver mais passageiros embarcando libera o carro para checar se ja pode ir embora
+        pthread_cond_signal(&station->espera_embarque);
+    }
+    //solta a "chave"
+    pthread_mutex_unlock(&station->lock);
+}
+
 //quando um carro chega a estacao essa funcao e chamada
 //void station_load_car(struct station *station, int count){}
 
 //funcao chamada quando um passageiro chega a estacao e quer entrar no carro
 //void station_wait_for_car(struct station *station){}
-
-//funcao chamada quando um passageiro entra no carro
-//void station_on_board(struct station *station){}
