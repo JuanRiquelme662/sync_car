@@ -79,4 +79,38 @@ Script started on 2026-11-02 15:41:07-03:00 [TERM="xterm-256color" TTY="/dev/pts
 mito
 /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car
 [?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ date; whoami; pwdscript -a evidencias.log[7Pdate; whoami; pwdscript -a evidencias.logexit[Kgcc -Wall -Wextra -pthread -c sync_car.c
-[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mit
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7mgcc -Wall -Wextra -pthread -c sync_car.c[27mgcc -Wall -Wextra -pthread -c sync_car.c
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7mls[27mls[C[C sync_car-runner.c
+[?2004l[0m[01;32msync_car-runner.c[0m
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ make
+[?2004lgcc -Wall -Wextra -pthread -o sync_car sync_car-runner.c sync_car.c
+[01m[Ksync_car-runner.c:[m[K In function ‘[01m[Kalarm_handler[m[K’:
+[01m[Ksync_car-runner.c:54:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   54 | void alarm_handler([01;35m[Kint foo[m[K)
+      |                    [01;35m[K~~~~^~~[m[K
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m./sync_car[27m[10@./sync_car[C[C[C[C[C[C[C[C[C[C[1P./sync_ca[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m./sync_car[27m[10@./sync_car[C[C[C[C[C[C[C[C[C[C[1P./sync_ca[K[K[K[K[K[K[K[K[K
+[?2004lcar entering station with 15 free seats
+car departed station with 15 new passenger(s) (expected 15)
+car entering station with 18 free seats
+car departed station with 18 new passenger(s) (expected 18)
+car entering station with 35 free seats
+car departed station with 35 new passenger(s) (expected 35)
+car entering station with 29 free seats
+car departed station with 29 new passenger(s) (expected 29)
+car entering station with 33 free seats
+car departed station with 3 new passenger(s) (expected 3)
+Looks good!
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./sync_car
+[?2004lcar entering station with 44 free seats
+car departed station with 44 new passenger(s) (expected 44)
+car entering station with 36 free seats
+car departed station with 36 new passenger(s) (expected 36)
+car entering station with 41 free seats
+car departed station with 20 new passenger(s) (expected 20)
+Looks good!
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./sync_car
+[?2004lcar entering station with 28 free seats
+car departed station with 28 new passenger(s) (expected 28)
+car entering station with 30 free seats
+car departed station with 30 new passenger(s) (expected 30)
+car entering
