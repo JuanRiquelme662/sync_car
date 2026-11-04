@@ -1,0 +1,11 @@
+# Compilação e binários
+sync_car
+*.o
+
+# Executáveis de teste avulsos
+teste_bordas
+testes
+
+# Opcional: ficheiros do sistema operativo
+.DS_Store
+Thumbs.db
