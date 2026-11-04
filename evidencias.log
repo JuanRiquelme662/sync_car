@@ -150,4 +150,1115 @@ car departed station with 29 new passenger(s) (expected 29)
 car entering station with 24 free seats
 car departed station with 5 new passenger(s) (expected 5)
 Looks good!
-[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Des
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m   ./sync_car[27m   ./sync_car
+[?2004lcar entering station with 10 free seats
+car departed station with 10 new passenger(s) (expected 10)
+car entering station with 42 free seats
+car departed station with 42 new passenger(s) (expected 42)
+car entering station with 34 free seats
+car departed station with 34 new passenger(s) (expected 34)
+car entering station with 24 free seats
+car departed station with 14 new passenger(s) (expected 14)
+Looks good!
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m   for i in $(seq 500); do ./sync_car > /dev/null || { echo "falhou na rodada $i"; break; }; done; ech[27m[7mo[27m[7m "fim do loop"[27m[A]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$    for i in $(seq 500); do ./sync_car > /dev/null || { echo "falhou na rodada $i"; break; }; done; echo "fim do loop"
+[?2004lfim do loop
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m   gcc -Wall -Wextra -pthread -fsanitize=thread -g -o sync_car_tsan sync_car-runner.c sync_car.c[27m
+[7m   ./sync_car_tsan[27m[A]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$    gcc -Wall -Wextra -pthread -fsanitize=thread -g -o sync_car_tsan sync_car-runner.c sync_car.c
+   ./sync_car_tsan
+[?2004l[01m[Ksync_car-runner.c:[m[K In function ‘[01m[Kalarm_handler[m[K’:
+[01m[Ksync_car-runner.c:54:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   54 | void alarm_handler([01;35m[Kint foo[m[K)
+      |                    [01;35m[K~~~~^~~[m[K
+car entering station with 3 free seats
+==================
+[1m[31mWARNING: ThreadSanitizer: data race (pid=73905)
+[1m[0m[1m[34m  Atomic write of size 4 at 0x555555559030 by thread T58:
+[1m[0m    #0 passenger_thread /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:25 (sync_car_tsan+0x1572) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[34m  Previous read of size 4 at 0x555555559030 by main thread:
+[1m[0m    #0 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:127 (sync_car_tsan+0x1a52) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[32m  Location is global 'threads_completed' of size 4 at 0x555555559030 (sync_car_tsan+0x5030)
+
+[1m[0m[1m[36m  Thread T58 (tid=73964, running) created by main thread at:
+[1m[0m    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1078 (libtsan.so.2+0x5cb02) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:87 (sync_car_tsan+0x17ec) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+SUMMARY: ThreadSanitizer: data race /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:25 in passenger_thread
+==================
+car departed station with 3 new passenger(s) (expected 3)
+car entering station with 46 free seats
+==================
+[1m[31mWARNING: ThreadSanitizer: data race (pid=73905)
+[1m[0m[1m[34m  Write of size 4 at 0x555555559034 by main thread:
+[1m[0m    #0 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:108 (sync_car_tsan+0x18e1) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[34m  Previous write of size 4 at 0x555555559034 by thread T101:
+[1m[0m    #0 load_car_thread /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:40 (sync_car_tsan+0x15ed) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[33m  As if synchronized via sleep:
+[1m[0m    #0 usleep ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:389 (libtsan.so.2+0x599aa) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:139 (sync_car_tsan+0x1b08) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[32m  Location is global 'load_car_returned' of size 4 at 0x555555559034 (sync_car_tsan+0x5034)
+
+[1m[0m[1m[36m  Thread T101 (tid=74007, finished) created by main thread at:
+[1m[0m    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1078 (libtsan.so.2+0x5cb02) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:111 (sync_car_tsan+0x1974) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+SUMMARY: ThreadSanitizer: data race /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:108 in main
+==================
+==================
+[1m[31mWARNING: ThreadSanitizer: data race (pid=73905)
+[1m[0m[1m[34m  Read of size 4 at 0x555555559034 by main thread:
+[1m[0m    #0 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:137 (sync_car_tsan+0x1af4) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[34m  Previous write of size 4 at 0x555555559034 by thread T102:
+[1m[0m    #0 load_car_thread /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:40 (sync_car_tsan+0x15ed) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[33m  As if synchronized via sleep:
+[1m[0m    #0 usleep ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:389 (libtsan.so.2+0x599aa) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:139 (sync_car_tsan+0x1b08) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+[1m[32m  Location is global 'load_car_returned' of size 4 at 0x555555559034 (sync_car_tsan+0x5034)
+
+[1m[0m[1m[36m  Thread T102 (tid=74008, finished) created by main thread at:
+[1m[0m    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1078 (libtsan.so.2+0x5cb02) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:111 (sync_car_tsan+0x1974) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+SUMMARY: ThreadSanitizer: data race /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:137 in main
+==================
+car departed station with 46 new passenger(s) (expected 46)
+car entering station with 26 free seats
+car departed station with 26 new passenger(s) (expected 26)
+car entering station with 48 free seats
+car departed station with 25 new passenger(s) (expected 25)
+Looks good!
+==================
+[1m[31mWARNING: ThreadSanitizer: thread leak (pid=73905)
+[1m[0m[1m[36m  Thread T1 (tid=73907, finished) created by main thread at:
+[1m[0m    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1078 (libtsan.so.2+0x5cb02) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:87 (sync_car_tsan+0x17ec) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+  And 99 more similar thread leaks.
+
+SUMMARY: ThreadSanitizer: thread leak /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:87 in main
+==================
+==================
+[1m[31mWARNING: ThreadSanitizer: thread leak (pid=73905)
+[1m[0m[1m[36m  Thread T101 (tid=74007, finished) created by main thread at:
+[1m[0m    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1078 (libtsan.so.2+0x5cb02) (BuildId: 66d37dc704b813df6c813b77217284deb43a0042)
+    #1 main /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:111 (sync_car_tsan+0x1974) (BuildId: bbbe0a4f4bf607d77ddf798a237453484e0d4ce2)
+
+  And 3 more similar thread leaks.
+
+SUMMARY: ThreadSanitizer: thread leak /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car/sync_car-runner.c:111 in main
+==================
+ThreadSanitizer: reported 5 warnings
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7mgcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c[27mgcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c
+[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Kteste_bordas.c: No such file or directory
+compilation terminated.
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7mgcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c[27mgcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m./teste_bordas[27m./teste_bordas
+[?2004l##### CASOS DE BORDA #####
+==> sem passageiros, carro com 0 assentos
+    OK
+==> sem passageiros, carro com 10 assentos
+    OK
+==> 10 passageiros esperando, carro com 0 assentos
+    OK
+==> 1 passageiro, 1 assento
+    OK
+==> 1 passageiro, 50 assentos (sobram muitos)
+    OK
+==> 5 passageiros, 20 assentos (sobram assentos)
+    OK
+==> 20 passageiros, 5 assentos (sobra gente)
+    OK
+==> 20 passageiros, 1 assento
+    OK
+==> 10 passageiros, 10 assentos (exato)
+    OK
+==> 200 passageiros, 50 assentos
+    OK
+==> 200 passageiros, 500 assentos
+    OK
+==> 20 passageiros, 5 assentos, on_board lento
+    OK
+==> 5 passageiros, 20 assentos, on_board lento
+    OK
+==> 10 passageiros, 10 assentos, on_board lento
+    OK
+
+##### CHEGADA TARDIA #####
+==> passageiros chegam com o carro na estacao
+    info: 4 dos 4 retardatarios entraram no carro que ja estava na estacao
+    OK
+
+##### ESTRESSE (3 rodada(s) por configuracao) #####
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 1)
+    info: 67 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 1)
+    info: 60 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 1)
+    info: 95 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 1)
+    info: 68 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 1)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 1)
+    info: 833 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 1)
+    info: 97 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 2)
+    info: 55 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 2)
+    info: 69 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 2)
+    info: 95 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 2)
+    info: 81 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 2)
+    info: 416 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 2)
+    info: 795 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 2)
+    info: 97 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 3)
+    info: 64 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 3)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 3)
+    info: 100 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 3)
+    info: 77 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 3)
+    info: 399 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 3)
+    info: 754 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 3)
+    info: 88 carros
+    OK
+
+===== RESUMO: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./teste_bordas
+[?2004l##### CASOS DE BORDA #####
+==> sem passageiros, carro com 0 assentos
+    OK
+==> sem passageiros, carro com 10 assentos
+    OK
+==> 10 passageiros esperando, carro com 0 assentos
+    OK
+==> 1 passageiro, 1 assento
+    OK
+==> 1 passageiro, 50 assentos (sobram muitos)
+    OK
+==> 5 passageiros, 20 assentos (sobram assentos)
+    OK
+==> 20 passageiros, 5 assentos (sobra gente)
+    OK
+==> 20 passageiros, 1 assento
+    OK
+==> 10 passageiros, 10 assentos (exato)
+    OK
+==> 200 passageiros, 50 assentos
+    OK
+==> 200 passageiros, 500 assentos
+    OK
+==> 20 passageiros, 5 assentos, on_board lento
+    OK
+==> 5 passageiros, 20 assentos, on_board lento
+    OK
+==> 10 passageiros, 10 assentos, on_board lento
+    OK
+
+##### CHEGADA TARDIA #####
+==> passageiros chegam com o carro na estacao
+    info: 4 dos 4 retardatarios entraram no carro que ja estava na estacao
+    OK
+
+##### ESTRESSE (3 rodada(s) por configuracao) #####
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 1)
+    info: 65 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 1)
+    info: 60 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 1)
+    info: 97 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 1)
+    info: 67 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 1)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 1)
+    info: 833 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 1)
+    info: 93 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 2)
+    info: 58 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 2)
+    info: 68 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 2)
+    info: 98 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 2)
+    info: 74 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 2)
+    info: 416 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 2)
+    info: 795 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 2)
+    info: 94 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 3)
+    info: 64 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 3)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 3)
+    info: 98 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 3)
+    info: 77 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 3)
+    info: 399 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 3)
+    info: 754 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 3)
+    info: 89 carros
+    OK
+
+===== RESUMO: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ make
+[?2004lgcc -Wall -Wextra -pthread -o sync_car sync_car-runner.c sync_car.c
+[01m[Ksync_car-runner.c:[m[K In function ‘[01m[Kalarm_handler[m[K’:
+[01m[Ksync_car-runner.c:54:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfoo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   54 | void alarm_handler([01;35m[Kint foo[m[K)
+      |                    [01;35m[K~~~~^~~[m[K
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ make./teste_bordas
+[?2004l##### CASOS DE BORDA #####
+==> sem passageiros, carro com 0 assentos
+    OK
+==> sem passageiros, carro com 10 assentos
+    OK
+==> 10 passageiros esperando, carro com 0 assentos
+    OK
+==> 1 passageiro, 1 assento
+    OK
+==> 1 passageiro, 50 assentos (sobram muitos)
+    OK
+==> 5 passageiros, 20 assentos (sobram assentos)
+    OK
+==> 20 passageiros, 5 assentos (sobra gente)
+    OK
+==> 20 passageiros, 1 assento
+    OK
+==> 10 passageiros, 10 assentos (exato)
+    OK
+==> 200 passageiros, 50 assentos
+    OK
+==> 200 passageiros, 500 assentos
+    OK
+==> 20 passageiros, 5 assentos, on_board lento
+    OK
+==> 5 passageiros, 20 assentos, on_board lento
+    OK
+==> 10 passageiros, 10 assentos, on_board lento
+    OK
+
+##### CHEGADA TARDIA #####
+==> passageiros chegam com o carro na estacao
+    info: 4 dos 4 retardatarios entraram no carro que ja estava na estacao
+    OK
+
+##### ESTRESSE (3 rodada(s) por configuracao) #####
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 1)
+    info: 67 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 1)
+    info: 60 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 1)
+    info: 98 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 1)
+    info: 69 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 1)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 1)
+    info: 833 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 1)
+    info: 88 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 2)
+    info: 55 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 2)
+    info: 68 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 2)
+    info: 89 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 2)
+    info: 74 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 2)
+    info: 416 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 2)
+    info: 795 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 2)
+    info: 97 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 3)
+    info: 64 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 3)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 3)
+    info: 96 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 3)
+    info: 80 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 3)
+    info: 399 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 3)
+    info: 754 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 3)
+    info: 91 carros
+    OK
+
+===== RESUMO: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./teste_bordasmake[K./teste_bordasgcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ gcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c./teste_bordas[K
+[?2004l##### CASOS DE BORDA #####
+==> sem passageiros, carro com 0 assentos
+    OK
+==> sem passageiros, carro com 10 assentos
+    OK
+==> 10 passageiros esperando, carro com 0 assentos
+    [FALHA] 10 passageiros liberados (esperado 0)
+    [FALHA] 0 passageiros ainda esperando (esperado 10)
+    [FALHA] carro saiu deixando quantidade_assentos_livres = -10 (esperado 0)
+    FALHOU
+==> 1 passageiro, 1 assento
+    OK
+==> 1 passageiro, 50 assentos (sobram muitos)
+    OK
+==> 5 passageiros, 20 assentos (sobram assentos)
+    OK
+==> 20 passageiros, 5 assentos (sobra gente)
+    [FALHA] ao sair, 20 passageiros tinham chamado on_board (esperado 5)
+    [FALHA] 20 passageiros liberados (esperado 5)
+    [FALHA] 0 passageiros ainda esperando (esperado 15)
+    FALHOU
+==> 20 passageiros, 1 assento
+    [FALHA] ao sair, 2 passageiros tinham chamado on_board (esperado 1)
+    [FALHA] 20 passageiros liberados (esperado 1)
+    [FALHA] 0 passageiros ainda esperando (esperado 19)
+    [FALHA] carro saiu deixando quantidade_assentos_livres = -18 (esperado 0)
+    FALHOU
+==> 10 passageiros, 10 assentos (exato)
+    OK
+==> 200 passageiros, 50 assentos
+    [FALHA] ao sair, 200 passageiros tinham chamado on_board (esperado 50)
+    [FALHA] 200 passageiros liberados (esperado 50)
+    [FALHA] 0 passageiros ainda esperando (esperado 150)
+    FALHOU
+==> 200 passageiros, 500 assentos
+    OK
+==> 20 passageiros, 5 assentos, on_board lento
+    [FALHA] ao sair, 20 passageiros tinham chamado on_board (esperado 5)
+    [FALHA] 20 passageiros liberados (esperado 5)
+    [FALHA] 0 passageiros ainda esperando (esperado 15)
+    FALHOU
+==> 5 passageiros, 20 assentos, on_board lento
+    OK
+==> 10 passageiros, 10 assentos, on_board lento
+    OK
+
+##### CHEGADA TARDIA #####
+==> passageiros chegam com o carro na estacao
+    info: 4 dos 4 retardatarios entraram no carro que ja estava na estacao
+    OK
+
+##### ESTRESSE (3 rodada(s) por configuracao) #####
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 1)
+    [FALHA] carro 2: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 1)
+    [FALHA] carro 2: 13 passageiros liberados para 1 assentos
+    FALHOU
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 1)
+    [FALHA] carro 46: 5 passageiros liberados para 4 assentos
+    FALHOU
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 1)
+    [FALHA] carro 3: 17 passageiros liberados para 3 assentos
+    FALHOU
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 1)
+    [FALHA] carro 3: 11 passageiros liberados para 3 assentos
+    FALHOU
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 1)
+    [FALHA] carro 1: 3 passageiros liberados para 1 assentos
+    [FALHA] carro 1: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 1)
+    [FALHA] carro 3: 5 passageiros liberados para 4 assentos
+    [FALHA] carro 3: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 2)
+    [FALHA] carro 2: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 2)
+    [FALHA] carro 2: 11 passageiros liberados para 3 assentos
+    FALHOU
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 2)
+    [FALHA] carro 21: 3 passageiros liberados para 1 assentos
+    [FALHA] carro 21: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 2)
+    [FALHA] carro 7: 17 passageiros liberados para 6 assentos
+    FALHOU
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 2)
+    [FALHA] carro 2: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 2)
+    [FALHA] carro 1: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 2)
+    [FALHA] carro 1: 11 passageiros liberados para 6 assentos
+    [FALHA] carro 1: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 3)
+    [FALHA] carro 3: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 3)
+    [FALHA] carro 1: 9 passageiros liberados para 2 assentos
+    FALHOU
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 3)
+    [FALHA] carro 38: 6 passageiros liberados para 4 assentos
+    [FALHA] carro 38: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 3)
+    [FALHA] carro 10: 8 passageiros liberados para 1 assentos
+    FALHOU
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 3)
+    [FALHA] carro 1: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 3)
+    [FALHA] carro 1: 4 passageiros liberados para 1 assentos
+    [FALHA] carro 1: passageiro liberado sem carro na estacao
+    FALHOU
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 3)
+    [FALHA] carro 5: 6 passageiros liberados para 4 assentos
+    FALHOU
+
+===== RESUMO: FALHOU (26 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./teste_bordasgcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ gcc -Wall -Wextra -pthread -o teste_bordas teste_bordas.c sync_car.c./teste_bordas[K
+[?2004l##### CASOS DE BORDA #####
+==> sem passageiros, carro com 0 assentos
+    OK
+==> sem passageiros, carro com 10 assentos
+    OK
+==> 10 passageiros esperando, carro com 0 assentos
+    OK
+==> 1 passageiro, 1 assento
+    OK
+==> 1 passageiro, 50 assentos (sobram muitos)
+    OK
+==> 5 passageiros, 20 assentos (sobram assentos)
+    OK
+==> 20 passageiros, 5 assentos (sobra gente)
+    OK
+==> 20 passageiros, 1 assento
+    OK
+==> 10 passageiros, 10 assentos (exato)
+    OK
+==> 200 passageiros, 50 assentos
+    OK
+==> 200 passageiros, 500 assentos
+    OK
+==> 20 passageiros, 5 assentos, on_board lento
+    OK
+==> 5 passageiros, 20 assentos, on_board lento
+    OK
+==> 10 passageiros, 10 assentos, on_board lento
+    OK
+
+##### CHEGADA TARDIA #####
+==> passageiros chegam com o carro na estacao
+    info: 4 dos 4 retardatarios entraram no carro que ja estava na estacao
+    OK
+
+##### ESTRESSE (3 rodada(s) por configuracao) #####
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 1)
+    info: 65 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 1)
+    info: 60 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 1)
+    info: 93 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 1)
+    info: 68 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 1)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 1)
+    info: 833 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 1)
+    info: 93 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 2)
+    info: 55 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 2)
+    info: 69 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 2)
+    info: 92 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 2)
+    info: 75 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 2)
+    info: 416 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 2)
+    info: 795 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 2)
+    info: 97 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 3)
+    info: 64 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 3)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 3)
+    info: 98 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 3)
+    info: 78 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 3)
+    info: 399 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 3)
+    info: 754 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 3)
+    info: 93 carros
+    OK
+
+===== RESUMO: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./teste_bordas 20
+[?2004l##### CASOS DE BORDA #####
+==> sem passageiros, carro com 0 assentos
+    OK
+==> sem passageiros, carro com 10 assentos
+    OK
+==> 10 passageiros esperando, carro com 0 assentos
+    OK
+==> 1 passageiro, 1 assento
+    OK
+==> 1 passageiro, 50 assentos (sobram muitos)
+    OK
+==> 5 passageiros, 20 assentos (sobram assentos)
+    OK
+==> 20 passageiros, 5 assentos (sobra gente)
+    OK
+==> 20 passageiros, 1 assento
+    OK
+==> 10 passageiros, 10 assentos (exato)
+    OK
+==> 200 passageiros, 50 assentos
+    OK
+==> 200 passageiros, 500 assentos
+    OK
+==> 20 passageiros, 5 assentos, on_board lento
+    OK
+==> 5 passageiros, 20 assentos, on_board lento
+    OK
+==> 10 passageiros, 10 assentos, on_board lento
+    OK
+
+##### CHEGADA TARDIA #####
+==> passageiros chegam com o carro na estacao
+    info: 4 dos 4 retardatarios entraram no carro que ja estava na estacao
+    OK
+
+##### ESTRESSE (20 rodada(s) por configuracao) #####
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 1)
+    info: 63 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 1)
+    info: 60 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 1)
+    info: 93 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 1)
+    info: 67 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 1)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 1)
+    info: 833 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 1)
+    info: 93 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 2)
+    info: 55 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 2)
+    info: 68 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 2)
+    info: 92 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 2)
+    info: 74 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 2)
+    info: 416 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 2)
+    info: 795 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 2)
+    info: 96 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 3)
+    info: 64 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 3)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 3)
+    info: 101 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 3)
+    info: 77 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 3)
+    info: 399 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 3)
+    info: 754 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 3)
+    info: 92 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 4)
+    info: 62 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 4)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 4)
+    info: 75 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 4)
+    info: 66 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 4)
+    info: 394 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 4)
+    info: 811 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 4)
+    info: 89 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 5)
+    info: 62 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 5)
+    info: 73 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 5)
+    info: 92 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 5)
+    info: 72 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 5)
+    info: 386 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 5)
+    info: 801 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 5)
+    info: 93 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 6)
+    info: 62 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 6)
+    info: 60 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 6)
+    info: 90 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 6)
+    info: 75 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 6)
+    info: 407 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 6)
+    info: 801 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 6)
+    info: 98 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 7)
+    info: 73 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 7)
+    info: 68 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 7)
+    info: 92 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 7)
+    info: 72 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 7)
+    info: 399 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 7)
+    info: 785 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 7)
+    info: 88 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 8)
+    info: 65 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 8)
+    info: 55 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 8)
+    info: 87 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 8)
+    info: 72 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 8)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 8)
+    info: 879 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 8)
+    info: 106 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 9)
+    info: 70 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 9)
+    info: 67 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 9)
+    info: 101 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 9)
+    info: 60 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 9)
+    info: 405 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 9)
+    info: 825 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 9)
+    info: 87 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 10)
+    info: 77 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 10)
+    info: 61 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 10)
+    info: 89 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 10)
+    info: 76 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 10)
+    info: 412 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 10)
+    info: 792 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 10)
+    info: 86 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 11)
+    info: 64 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 11)
+    info: 62 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 11)
+    info: 97 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 11)
+    info: 79 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 11)
+    info: 382 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 11)
+    info: 785 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 11)
+    info: 99 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 12)
+    info: 61 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 12)
+    info: 64 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 12)
+    info: 79 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 12)
+    info: 69 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 12)
+    info: 397 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 12)
+    info: 799 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 12)
+    info: 93 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 13)
+    info: 59 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 13)
+    info: 70 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 13)
+    info: 85 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 13)
+    info: 84 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 13)
+    info: 412 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 13)
+    info: 737 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 13)
+    info: 88 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 14)
+    info: 65 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 14)
+    info: 78 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 14)
+    info: 90 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 14)
+    info: 71 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 14)
+    info: 387 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 14)
+    info: 776 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 14)
+    info: 93 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 15)
+    info: 62 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 15)
+    info: 58 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 15)
+    info: 86 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 15)
+    info: 70 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 15)
+    info: 419 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 15)
+    info: 842 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 15)
+    info: 90 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 16)
+    info: 61 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 16)
+    info: 65 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 16)
+    info: 99 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 16)
+    info: 80 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 16)
+    info: 393 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 16)
+    info: 875 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 16)
+    info: 96 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 17)
+    info: 59 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 17)
+    info: 56 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 17)
+    info: 92 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 17)
+    info: 78 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 17)
+    info: 407 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 17)
+    info: 826 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 17)
+    info: 94 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 18)
+    info: 66 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 18)
+    info: 61 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 18)
+    info: 83 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 18)
+    info: 71 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 18)
+    info: 396 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 18)
+    info: 775 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 18)
+    info: 86 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 19)
+    info: 58 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 19)
+    info: 74 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 19)
+    info: 90 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 19)
+    info: 76 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 19)
+    info: 423 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 19)
+    info: 804 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 19)
+    info: 89 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 0 us (rodada 20)
+    info: 58 carros
+    OK
+==> estresse: 300 passageiros, ate 10 assentos, on_board ate 200 us (rodada 20)
+    info: 58 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 0 us (rodada 20)
+    info: 90 carros
+    OK
+==> estresse: 500 passageiros, ate 100 assentos, on_board ate 100 us (rodada 20)
+    info: 64 carros
+    OK
+==> estresse: 600 passageiros, ate 3 assentos, on_board ate 50 us (rodada 20)
+    info: 398 carros
+    OK
+==> estresse: 400 passageiros, ate 1 assentos, on_board ate 0 us (rodada 20)
+    info: 767 carros
+    OK
+==> estresse: 500 passageiros, ate 40 assentos, on_board ate 0 us (rodada 20)
+    info: 90 carros
+    OK
+
+===== RESUMO: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ exite[K
+[?2004lexit
+
+Script done on 2026-11-02 16:20:47-03:00 [COMMAND_EXIT_CODE="0"]

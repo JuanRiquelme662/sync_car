@@ -61,7 +61,7 @@ void station_load_car(struct station *station, int count){
     station->quantidade_assentos_livres = count;
     //abre espaco para as threads concorrerem pelos lugares livres
     pthread_cond_broadcast(&station->carro_chegou);
-     while ((station->quantidade_assentos_livres > 0 && station->passageiros_esperando > 0) || station->passageiros_embarcando > 0){
+    while ((station->quantidade_assentos_livres > 0 && station->passageiros_esperando > 0) || station->passageiros_embarcando > 0){
         //o carro espera que todos assentos sejam preenchidos
         //ou caso nao haja a quantidade suficiente de passageiros, que todos embarquem
         pthread_cond_wait(&station->espera_embarque, &station->lock);
