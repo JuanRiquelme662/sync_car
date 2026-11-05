@@ -1262,3 +1262,58 @@ compilation terminated.
 [?2004lexit
 
 Script done on 2026-11-02 16:20:47-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-04 21:01:45-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="175" LINES="14"]
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m   date; whoami; pwd[27m   date; whoami; pwd
+[?2004lWed Nov  4 21:01:50 -03 2026
+mito
+/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7mgcc -Wall -Wextra -pthread -o teste_invalidos teste_invalidos.c sync_car.c[27mgcc -Wall -Wextra -pthread -o teste_invalidos teste_invalidos.c sync_car.c
+[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Kteste_invalidos.c: No such file or directory
+compilation terminated.
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7mgcc -Wall -Wextra -pthread -o teste_invalidos teste_invalidos.c sync_car.c[27mgcc -Wall -Wextra -pthread -o teste_invalidos teste_invalidos.c sync_car.c[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@_[1@f[1@i[1@a[1@n[1P[1P[1@n[1@a[1@i[1@s
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [7m./teste_invalidos[27m./teste_invalidos
+[?2004l##### CASOS INVALIDOS (assentos negativos) #####
+==> INVALIDO: 10 passageiros esperando, carro com -1 assento
+    OK
+==> INVALIDO: 10 passageiros esperando, carro com -1000 assentos
+    OK
+==> INVALIDO: 10 passageiros esperando, carro com INT_MIN assentos
+    OK
+==> INVALIDO: 1 passageiro esperando, carro com -1 assento
+    OK
+==> INVALIDO: sem passageiros, carro com -1 assento
+    OK
+
+===== RESUMO INVALIDOS: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./teste_invalidos
+[?2004l##### CASOS INVALIDOS (assentos negativos) #####
+==> INVALIDO: 10 passageiros esperando, carro com -1 assento
+    OK
+==> INVALIDO: 10 passageiros esperando, carro com -1000 assentos
+    OK
+==> INVALIDO: 10 passageiros esperando, carro com INT_MIN assentos
+    OK
+==> INVALIDO: 1 passageiro esperando, carro com -1 assento
+    OK
+==> INVALIDO: sem passageiros, carro com -1 assento
+    OK
+
+===== RESUMO INVALIDOS: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ ./teste_invalidos
+[?2004l##### CASOS INVALIDOS (assentos negativos) #####
+==> INVALIDO: 10 passageiros esperando, carro com -1 assento
+    OK
+==> INVALIDO: 10 passageiros esperando, carro com -1000 assentos
+    OK
+==> INVALIDO: 10 passageiros esperando, carro com INT_MIN assentos
+    OK
+==> INVALIDO: 1 passageiro esperando, carro com -1 assento
+    OK
+==> INVALIDO: sem passageiros, carro com -1 assento
+    OK
+
+===== RESUMO INVALIDOS: TUDO OK (0 cenario(s) com problema) =====
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/sync_car[00m$ exist[K[Kt
+[?2004lexit
+
+Script done on 2026-11-04 21:02:56-03:00 [COMMAND_EXIT_CODE="0"]

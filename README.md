@@ -2,7 +2,7 @@
 
 Repositório desenvolvido para a implementação de um sistema de concorrência e sincronização de *threads* em C, estruturado para automatizar o embarque seguro de passageiros nos vagões da METROREC.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O projeto resolve o problema clássico de sincronização estilo *Caltrain*, utilizando estritamente a biblioteca POSIX Threads (`pthreads`). O design da solução cumpre restrições rigorosas impostas pelo enunciado:
 
@@ -12,7 +12,7 @@ O projeto resolve o problema clássico de sincronização estilo *Caltrain*, uti
 
 * **Concorrência:** Garantia de embarque simultâneo e ordenado de múltiplos passageiros.
 
-## 🚀 Como Compilar e Executar
+## Como Compilar e Executar
 
 1. **Clonar o repositório:**
 
@@ -38,7 +38,7 @@ O projeto resolve o problema clássico de sincronização estilo *Caltrain*, uti
    
    ```
 
-## 📂 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 * `sync_car.c` — Implementação principal da `struct station` e das funções de controle (`station_init`, `station_load_car`, `station_wait_for_car`, `station_on_board`).
 
@@ -52,7 +52,7 @@ O projeto resolve o problema clássico de sincronização estilo *Caltrain*, uti
 
 * `.gitignore` — Arquivo de configuração para ignorar binários e lixo de compilação.
 
-## 💻 Ambiente de Desenvolvimento
+## Ambiente de Desenvolvimento
 
 O projeto foi desenvolvido por **Juan Riquelme Xavier de Souza**. e validado no seguinte ambiente:
 
