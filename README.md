@@ -48,7 +48,7 @@ O projeto resolve o problema clássico de sincronização estilo *Caltrain*, uti
 
 * `Makefile` — Automação da compilação com separação de arquivos objeto e regras rigorosas de *warnings* (`-Wall -Wextra`).
 
-* `Relatorio.pdf` — Documentação técnica detalhada, contendo o diário de tentativas, arquitetura, decisões técnicas e evidências dos testes.
+* `jrxs.pdf` — Documentação técnica detalhada, contendo o diário de tentativas, arquitetura, decisões técnicas e evidências dos testes.
 
 * `.gitignore` — Arquivo de configuração para ignorar binários e lixo de compilação.
 
